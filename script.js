@@ -37,7 +37,7 @@ const copyToClipboard = () => {
         .then(() => {
             copyInfo.innerText = "Copied to clipboard!";
             copyInfo.style.opacity = 1;
-            setInterval(() => {
+            setTimeout(() => {
                 copyInfo.style.opacity = 0;
             }, 1000);
         })
