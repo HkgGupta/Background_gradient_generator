@@ -19,7 +19,9 @@ body {
 header {
     color: #fff;
     height: 40px;
-    padding: 10px 0;
+    padding: 5px 0;
+    text-align: center;
+    font-size: 18px;
 }
 
 section {
